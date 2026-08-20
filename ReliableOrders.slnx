@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/ReliableOrders.Domain/ReliableOrders.Domain.csproj" />
+    <Project Path="src/ReliableOrders.Api/ReliableOrders.Api.csproj" />
     <Project Path="src/ReliableOrders.Application/ReliableOrders.Application.csproj" />
     <Project Path="src/ReliableOrders.Infrastructure/ReliableOrders.Infrastructure.csproj" />
   </Folder>  

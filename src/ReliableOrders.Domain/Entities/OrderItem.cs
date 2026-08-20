@@ -29,4 +29,13 @@ public class OrderItem : Entity
         UnitPrice = unitPrice;
     }
 
+    private OrderItem(Guid id, string productName, int quantity) : base(id)
+    {
+        ProductName = productName;
+        Quantity = quantity;
+        UnitPrice = null!;
+    }
+
+    
+
 }
