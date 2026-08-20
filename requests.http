@@ -1,0 +1,7 @@
+POST http://localhost:5176/orders
+Content-Type: application/json
+
+{
+  "customerEmail": "customer@example.com",
+  "currency": "USD"
+}

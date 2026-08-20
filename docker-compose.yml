@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: reliableorders-postgres
+    environment:
+      POSTGRES_DB: reliableorders
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5332:5432"
+    volumes:
+      - reliableorders-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  reliableorders-postgres-data:
